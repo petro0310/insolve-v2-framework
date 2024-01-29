@@ -10,6 +10,7 @@ const roulette = require('./exports/roulette');
 const tf2_jackpot = require('./exports/tf2_jackpot');
 const tf2_coinflip = require('./exports/tf2_coinflip');
 const tf2_mines = require('./exports/tf2_mines');
+const tf2_blackjack = require('./exports/tf2_blackjack');
 
 const config = require('./config');
 
@@ -62,7 +63,39 @@ window.insolve = {
   tf2_jackpot,
   tf2_coinflip,
   tf2_mines,
+  tf2_blackjack,
   io,
   STATIC,
   config
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 0xcd555D0554108FA5e29e9401c09f1c0F8A4FEbB7

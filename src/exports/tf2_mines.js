@@ -31,7 +31,6 @@ const tf2_mines = {
   getActiveGames: () => {
     return new Promise(async (resolve, reject) => {
       const res = await helpers.requestAPI(`/tf2_mines/active`);
-
       resolve(res);
     });
   },
