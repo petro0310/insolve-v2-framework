@@ -1,6 +1,6 @@
 const events = require('./classes/EventEmitter');
 const store = require('./classes/Store');
-const io = require('./classes/io')();
+const io = require('./classes/IO')();
 
 const user = require('./exports/user');
 const chat = require('./exports/chat');
